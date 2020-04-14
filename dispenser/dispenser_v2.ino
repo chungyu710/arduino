@@ -35,13 +35,6 @@ void loop() {
   myservo.write(pos);
 }
 
-void dispense() {
-  myservo.write(0);
-  delay(500);
-  myservo.write(90);
-  delay(500);
-}
-
 int getDistance() {
   digitalWrite(trigPin, LOW);
   delayMicroseconds(2);
