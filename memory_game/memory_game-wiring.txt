@@ -1,0 +1,24 @@
+Title: memory_game-wiring.txt
+Author: Shiu-Chung Yu
+Created: 4/19/2020
+Last updated: 4/19/2020
+
+Description:
+  Electrical wiring for memory_game.ino (for Arduino)
+
+
+Wiring:
+  GND -> PB1 -> pin1
+  GND -> PB2 -> pin2
+  GND -> PB3 -> pin3
+
+  GND -> 220 ohm resistor -> (-) terminal of red    LED // (+) terminal of yellow LED -> pin11
+  GND -> 220 ohm resistor -> (-) terminal of green  LED // (+) terminal of yellow LED -> pin12
+  GND -> 220 ohm resistor -> (-) terminal of yellow LED // (+) terminal of yellow LED -> pin13
+
+  GND -> 330 ohm resistor -> (-) terminal of passive buzzer // (+) terminal of passive buzzer -> pin9
+
+
+Notes:
+  PB1, PB2, and PB3 can be physically arranged to resemble that of 
+  the red, green, and yellow LEDs for intuive use.
