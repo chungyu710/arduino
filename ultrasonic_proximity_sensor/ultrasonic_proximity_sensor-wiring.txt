@@ -1,0 +1,15 @@
+Title: ultrasonic_proximity_sensor-wiring.txt
+Author: Shiu-Chung Yu
+Created: 4/9/2020
+Last updated: 4/21/2020
+
+Description:
+  A proximity sensor made from an ultrasonic sensor and passive buzzer.
+  The bpm and frequency of the beeps are inversely proportional to the distance 
+  between the ultrasonic sensor and the closest object to the sensor.
+
+Wiring:
+  GND -> 330 ohm resistor -> (-) terminal of passive buzzer // (+) terminal of passive buzzer -> pin7
+
+Notes:
+  
