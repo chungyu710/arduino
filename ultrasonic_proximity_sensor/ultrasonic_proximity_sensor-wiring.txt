@@ -10,6 +10,12 @@ Description:
 
 Wiring:
   GND -> 330 ohm resistor -> (-) terminal of passive buzzer // (+) terminal of passive buzzer -> pin7
+  
+  Ultrasonic Sensor:
+    Vcc pin -> 5V power
+    trigPin -> pin10
+    echoPin -> pin9
+    GND pin -> GND
 
 Notes:
   
